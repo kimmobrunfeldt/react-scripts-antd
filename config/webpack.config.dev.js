@@ -148,7 +148,7 @@ module.exports = {
         loader: 'babel',
         query: {
           // @remove-on-eject-begin
-          babelrc: false,
+          babelrc: true,
           presets: [require.resolve('babel-preset-react-app')],
           // @remove-on-eject-end
           // This is a feature of `babel-loader` for webpack (not Babel itself).

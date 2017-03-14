@@ -146,7 +146,7 @@ module.exports = {
         loader: 'babel',
         // @remove-on-eject-begin
         query: {
-          babelrc: false,
+          babelrc: true,
           presets: [require.resolve('babel-preset-react-app')],
         },
         // @remove-on-eject-end
